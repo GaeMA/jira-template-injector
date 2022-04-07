@@ -15,13 +15,19 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to{" "}
-          <a href="https://github.com/arnau-rius/jira-template-injector">
+          <a
+            href="https://github.com/arnau-rius/jira-template-injector#set-up"
+            target="_blank"
+          >
             Jira Template Injector
           </a>
         </h1>
         <p className={styles.description}>
           👩🏽‍💻 Get started by following instructions in{" "}
-          <a href="https://github.com/arnau-rius/jira-template-injector">
+          <a
+            href="https://github.com/arnau-rius/jira-template-injector#set-up"
+            target="_blank"
+          >
             here ➡️
           </a>
         </p>
