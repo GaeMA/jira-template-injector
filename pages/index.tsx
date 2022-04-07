@@ -19,7 +19,12 @@ const Home: NextPage = () => {
             Jira Template Injector
           </a>
         </h1>
-        <p className={styles.description}></p>
+        <p className={styles.description}>
+          👩🏽‍💻 Get started by following instructions in{" "}
+          <a href="https://github.com/arnau-rius/jira-template-injector">
+            here ➡️
+          </a>
+        </p>
 
         <div className={styles.grid}>
           <a
@@ -27,8 +32,8 @@ const Home: NextPage = () => {
             className={styles.card}
             target="_blank"
           >
-            <h2>Jira Templates &rarr;</h2>
-            <p>Jira Template Configuration in JSON format.</p>
+            <h2>JSON Template &rarr;</h2>
+            <p>JIRA Template Configuration in JSON format.</p>
           </a>
         </div>
       </main>
