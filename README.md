@@ -2,6 +2,8 @@
 
 [Website](https://jira-template-injector.vercel.app/)
 
+Based on [rdbrck/jira-template-injector](https://jiratemplate.com/) 💻
+
 ## Set up
 
 1. Install the [JIRA Template Injector Chrome Extension](https://chrome.google.com/webstore/detail/jira-template-injector/hmhpegjieopgbdmpocdmfkafjgcdmhha)
