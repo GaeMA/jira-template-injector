@@ -67,7 +67,7 @@
     },
     {
       "issuetype-field": "Debt",
-      "name": "DEBT",
+      "name": "DEBT TEMPLATE",
       "projects-field": "",
       "text": "{panel:title=Debt|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n...\n{panel}\n{panel:title=Acceptance Criteria|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n * ...\n{panel}"
     }
