@@ -1,71 +1,75 @@
 {
-    "options": {
-        "domains": [
-            "jira.scmspain.com"
-        ],
-        "inputIDs": [],
-        "limit": []
+  "options": {
+    "domains": ["jira.scmspain.com"],
+    "inputIDs": [],
+    "limit": []
+  },
+  "templates": [
+    {
+      "issuetype-field": "Story",
+      "name": "DEFAULT TEMPLATE",
+      "projects-field": "MMAA, -, Breaking, Ads",
+      "text": "{panel:title=USER STORY|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n*Como* ...\n *Quiero* ...\n *Para* ...\n\n *Creemos que* ...\n *Para* ...\n *Conseguiremos* ...\n{panel}\n{panel:title=Background:|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n....\n\n{panel}\n{panel:title=Target KR:|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n....\n\n{panel}\n{panel:title=Acceptance Criteria|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n * ...\n{panel}\n{panel:title=Refinement|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n*Identified dependencies*:\n *Issues to clarify*:\n *Other*:\n{panel}"
     },
-    "templates": [
-        {
-            "issuetype-field": "Story",
-            "name": "DEFAULT TEMPLATE",
-            "projects-field": "",
-            "text": "{panel:title=USER STORY|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n*Como* ...\n *Quiero* ...\n *Para* ...\n\n *Creemos que* ...\n *Para* ...\n *Conseguiremos* ...\n{panel}\n{panel:title=Background:|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n....\n\n{panel}\n{panel:title=Target KR:|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n....\n\n{panel}\n{panel:title=Acceptance Criteria|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n * ...\n{panel}\n{panel:title=Refinement|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n # Tiene template rellenado?\n # Hace falta tracking? (Crear sub-task y/o adjuntar specs)\n # Tiene specs UX ajuntas?\n # \n{panel}"
-        },
-        {
-            "issuetype-field": "Discovery",
-            "name": "DISCOVERY TEMPLATE",
-            "projects-field": "",
-            "text": "{panel:title=DESCRIPTION|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n*Creemos que* ...\n *Para* ...\n *Conseguiremos* ...\n{panel}\n{panel:title=Background:|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n....\n\n{panel}\n{panel:title=Target KR:|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n....\n\n{panel}\n{panel:title=Acceptance Criteria|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n * ...\n{panel}"
-        },        
-        {
-            "issuetype-field": "Bug",
-            "name": "BUG TEMPLATE",
-            "projects-field": "",
-            "text": "{panel:title=Summary|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\nEnter summary of the problem here. \n{panel}\n{panel:title=Additional Details|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\nEnter any other details such as examples, links to requirements, etc. Any criteria that might help with fixing the problem. Attach screenshots if possible. More detail is better.\n\n{panel}\n{panel:title=Workaround|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\nIf there is a way to work around the problem, place that information here.\n{panel}"
-        },
-        {
-            "issuetype-field": "Request",
-            "name": "REQUEST TEMPLATE",
-            "projects-field": "",
-            "text": "{panel:title=Request Description|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n...\n{panel}\n{panel:title=Acceptance Criteria|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n * ...\n{panel}"
-        },
-        {
-            "issuetype-field": "Spike",
-            "name": "SPIKE TEMPLATE",
-            "projects-field": "",
-            "text": "{panel:title=Spike Description|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n...\n\n\n*Time Slot:* ...\n{panel}\n{panel:title=Acceptance Criteria|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n * ...\n{panel}"
-        },        
-        {
-            "issuetype-field": "Task",
-            "name": "TASK TEMPLATE",
-            "projects-field": "",
-            "text": ""
-        },
-        {
-            "issuetype-field": "Sub-task",
-            "name": "SUB TASK TEMPLATE",
-            "projects-field": "",
-            "text": ""
-        },
-        {
-            "issuetype-field": "Improvement",
-            "name": "IMPROVEMENT TEMPLATE",
-            "projects-field": "",
-            "text": "*Summary*\n<TI>Enter a summary of the Improvement here.</TI>\n\n*Details*\n<TI>Enter any details, clarifications, answers to questions, or points about implementation here.</TI>\n\n*Additional Information*\n<TI>Enter any background or references such as Stack Overflow, MSDN, blogs, etc. that may help with developing the feature.</TI>"
-        },
-        {
-            "issuetype-field": "Epic",
-            "name": "EPIC TEMPLATE",
-            "projects-field": "",
-            "text": "{panel:title=USER STORY|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n*Como* ...\n *Quiero* ...\n *Para* ...\n{panel}\n{panel:title=Background:|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n....\n\n{panel}\n{panel:title=Target KR:|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n....\n\n{panel}\n{panel:title=Acceptance Criteria|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n * ...\n * ...\n * ...{panel}\n{panel:title=Refinement|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n*Identified dependencies*:\n *Issues to clarify*:\n *Other*:\n{panel}"
-        },
-        {
-            "issuetype-field": "Kaizen",
-            "name": "KAIZEN TEMPLATE",
-            "projects-field": "",
-            "text": "*Situación actual:*\nXXX\n\n*Causas raíz:*\nXXX\n\n*Acciones acordadas:*\nXXX"
-        }
-    ]
+    {
+      "issuetype-field": "Discovery",
+      "name": "DISCOVERY TEMPLATE",
+      "projects-field": "MMAA, -, Breaking, Ads",
+      "text": "{panel:title=DESCRIPTION|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n*Creemos que* ...\n *Para* ...\n *Conseguiremos* ...\n{panel}\n{panel:title=Background:|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n....\n\n{panel}\n{panel:title=Target KR:|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n....\n\n{panel}\n{panel:title=Acceptance Criteria|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n * ...\n{panel}"
+    },
+    {
+      "issuetype-field": "Bug",
+      "name": "BUG TEMPLATE",
+      "projects-field": "",
+      "text": "{panel:title=Summary|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\nEnter summary of the problem here. \n{panel}\n{panel:title=Additional Details|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\nEnter any other details such as examples, links to requirements, etc. Any criteria that might help with fixing the problem. Attach screenshots if possible. More detail is better.\n\n{panel}\n{panel:title=Workaround|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\nIf there is a way to work around the problem, place that information here.\n{panel}"
+    },
+    {
+      "issuetype-field": "Request",
+      "name": "REQUEST TEMPLATE",
+      "projects-field": "",
+      "text": "{panel:title=Request Description|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n...\n{panel}\n{panel:title=Acceptance Criteria|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n * ...\n{panel}"
+    },
+    {
+      "issuetype-field": "Spike",
+      "name": "SPIKE TEMPLATE",
+      "projects-field": "",
+      "text": "{panel:title=Spike Description|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n...\n\n\n*Time Slot:* ...\n{panel}\n{panel:title=Acceptance Criteria|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n * ...\n{panel}"
+    },
+    {
+      "issuetype-field": "Task",
+      "name": "TASK TEMPLATE",
+      "projects-field": "",
+      "text": ""
+    },
+    {
+      "issuetype-field": "Sub-task",
+      "name": "SUB TASK TEMPLATE",
+      "projects-field": "",
+      "text": ""
+    },
+    {
+      "issuetype-field": "Improvement",
+      "name": "IMPROVEMENT TEMPLATE",
+      "projects-field": "",
+      "text": "*Summary*\n<TI>Enter a summary of the Improvement here.</TI>\n\n*Details*\n<TI>Enter any details, clarifications, answers to questions, or points about implementation here.</TI>\n\n*Additional Information*\n<TI>Enter any background or references such as Stack Overflow, MSDN, blogs, etc. that may help with developing the feature.</TI>"
+    },
+    {
+      "issuetype-field": "Epic",
+      "name": "EPIC TEMPLATE",
+      "projects-field": "",
+      "text": "{panel:title=USER STORY|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n*Como* ...\n *Quiero* ...\n *Para* ...\n{panel}\n{panel:title=Background:|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n....\n\n{panel}\n{panel:title=Target KR:|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n....\n\n{panel}\n{panel:title=Acceptance Criteria|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n * ...\n * ...\n * ...{panel}\n{panel:title=Refinement|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n*Identified dependencies*:\n *Issues to clarify*:\n *Other*:\n{panel}"
+    },
+    {
+      "issuetype-field": "Kaizen",
+      "name": "KAIZEN TEMPLATE",
+      "projects-field": "",
+      "text": "*Situación actual:*\nXXX\n\n*Causas raíz:*\nXXX\n\n*Acciones acordadas:*\nXXX"
+    },
+    {
+      "issuetype-field": "Debt",
+      "name": "TECH DEBT",
+      "projects-field": "",
+      "text": "{panel:title=Tech Debt|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n...\n{panel}\n{panel:title=Acceptance Criteria|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n * ...\n{panel}"
+    }
+  ]
 }
