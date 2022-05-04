@@ -57,7 +57,7 @@
       "issuetype-field": "Epic",
       "name": "EPIC TEMPLATE",
       "projects-field": "",
-      "text": "{panel:title=USER STORY|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n*Como* ...\n *Quiero* ...\n *Para* ...\n{panel}\n{panel:title=Background:|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n....\n\n{panel}\n{panel:title=Target KR:|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n....\n\n{panel}\n{panel:title=Acceptance Criteria|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n * ...\n * ...\n * ...{panel}\n{panel:title=Refinement|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n*Identified dependencies*:\n *Issues to clarify*:\n *Other*:\n{panel}"
+      "text": "{panel:title=Hypothesis/Description|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n...\n{panel}\n{panel:title=Background:|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n....\n\n{panel}\n{panel:title=Target KR:|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n....\n\n{panel}\n{panel:title=Acceptance Criteria|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n * ...\n * ...\n * ...{panel}\n{panel:title=Other Info|titleBGColor=#a3dbf7|bgColor=#f0f0f0}\n...\n{panel}"
     },
     {
       "issuetype-field": "Kaizen",
